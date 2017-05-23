@@ -1,6 +1,4 @@
-https://raw.githubusercontent.com/adrianhopebailie/ilp-kit-docker-compose/master/azure/azure-deploy.json
-
-# Simple deployment of an Ubuntu VM with Docker
+# Simple deployment of an Ubuntu VM with Docker and ILP-kit
 
 <a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fadrianhopebailie%2Filp-kit-docker-compose%2Fmaster%2Fazure%2Fazure-deploy.json" target="_blank">
     <img src="http://azuredeploy.net/deploybutton.png"/>
