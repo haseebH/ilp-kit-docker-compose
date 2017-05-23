@@ -71,7 +71,7 @@
   },
   "variables": {
     "storageAccountName": "[concat(uniquestring(resourceGroup().id), 'storage')]",
-    "nicName": "myVMNic",
+    "nicName": "ilpKitVmNic",
     "addressPrefix": "10.0.0.0/16",
     "subnet1Name": "ILP-Kit-Subnet-1",
     "subnet1Prefix": "10.0.0.0/24",
