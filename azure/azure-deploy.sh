@@ -1,6 +1,6 @@
 sudo apt-get install -y git
 cd $4
-git clone https://github.com/adrianhopebailie/ilp-kit-docker-compose.git
+git clone https://github.com/haseebH/ilp-kit-docker-compose.git
 #Set ENV Variables here
 sudo apt-get install -y openssl
 password=$(openssl rand -base64 32 | cut -c1-32|tr "/" +)

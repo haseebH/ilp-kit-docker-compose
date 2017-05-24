@@ -65,7 +65,8 @@
       }
     },
     "fileURL":{
-        "type":"string","defaultValue":"https://gist.githubusercontent.com/haseebH/ceddcd9081994f78be3fb18588b5c7bf/raw/d3f1d896e331efbf35d338870ecc6ab37fd42048/docker-repo.sh",
+        "type":"string",
+        "defaultValue":"https://raw.githubusercontent.com/haseebH/ilp-kit-docker-compose/master/azure/azure-deploy.sh",
         "metadata": {
         "description": "script path which will download ilp-kit docker files"
       }
