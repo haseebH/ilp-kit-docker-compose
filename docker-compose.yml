@@ -1,5 +1,5 @@
 # docker compose for an ILP Kit
-version: "2.1"
+version: "1.7"
 networks:
   kit:
 services:
