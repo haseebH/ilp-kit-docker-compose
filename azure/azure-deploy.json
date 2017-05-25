@@ -294,7 +294,7 @@
           "fileUris": [
             "[parameters('fileURL')]"
           ],
-          "commandToExecute": "[concat('sh docker-repo.sh',' ',parameters('publicDomainName'),' ',parameters('emailAddress'),' ',parameters('currency'),' ',parameters('hostUserName'))]"
+          "commandToExecute": "[concat('sh azure-deploy.sh',' ',parameters('publicDomainName'),' ',parameters('emailAddress'),' ',parameters('currency'),' ',parameters('hostUserName'))]"
         }
       }
     }
