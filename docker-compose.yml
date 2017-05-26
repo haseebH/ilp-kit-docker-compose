@@ -5,6 +5,8 @@ networks:
 services:
 
   letsencrypt:
+    depends_on:
+      - ilp-kit
     container_name: "letsencrypt"
     build: "nginx-letsencrypt-proxy"
     volumes:
@@ -41,7 +43,6 @@ services:
   ilp-kit:
     depends_on:
       - postgres
-      - letsencrypt
     container_name: "ilp-kit"
     image: "interledgerjs/ilp-kit:latest"
 # enable this for development, with a local ilp-kit folder
